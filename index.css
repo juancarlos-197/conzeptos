@@ -1,0 +1,37 @@
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+ :root{
+    --color-terminal:#222222;
+    --borde-redondo:40px;
+ }
+ *{
+    font-family:'Segoe UI';
+ }
+ body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    color: white;
+ }
+ input,button{
+    border: none;
+    outline: none;
+ }
+ main{
+   padding: 20px;
+   box-shadow: 8px 8px 35px 0px rgba(0 0 0 / 75%);
+   border-radius: var(--borde-redondo);
+}
+h1{
+   margin: 0;
+}
+ #input-original,#resultado{
+background-color:var(--color-terminal) ;
+ }
+ 
+ #input-original{
+   margin: 10px 0 0;
+   padding: 10px;
+   color: wheat;
+ }
